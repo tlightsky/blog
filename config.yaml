@@ -1,4 +1,13 @@
 baseURL: http://tlightsky.com/
 languageCode: zh-cn
 title: TLightSky
-theme: ananke
+theme: ananke # github-style
+disqusShortname: tlightsky
+show_reading_time: true
+params:
+  author: TLightSky
+  description: TLightSky's Blog
+  github: https://github.com/tlightsky
+  email: wangchao719@gmail.com
+  avatar: https://avatars3.githubusercontent.com/u/429211?s=460&v=4
+  url: http://tlightsky.com/
