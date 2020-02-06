@@ -6,5 +6,6 @@ draft: true
 
 # 这是2020年的一些博客计划
 
-* 迁移之前Jekyll的博客到Hugo平台
-* 
+* 迁移之前Jekyll的博客到Hugo平台（已完成）
+* 把之前ClickHouse的一些东西整理下写出来
+* 写一些车相关的知识
