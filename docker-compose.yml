@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  hugo:
+    image: yanqd0/hugo
+    command: hugo server --bind 0.0.0.0 --port 80 --navigateToChanged --templateMetrics --buildDrafts
+    volumes:
+      - .:/srv/hugo
+    ports:
+      - 80:80
