@@ -3,6 +3,10 @@ USER=root
 HOST=tlightsky.com
 DIR=/root/nginx/www/   # the directory where your web site files should go
 
-hugo && rsync -avz --delete public/ ${USER}@${HOST}:${DIR}
+hugo
+
+ssh ${USER}@${HOST} chmod -R 777 ${DIR}
+rsync -avz --delete public/ ${USER}@${HOST}:${DIR}
+ssh ${USER}@${HOST} chmod -R 777 ${DIR}
 
 exit 0

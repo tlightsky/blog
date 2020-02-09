@@ -1,7 +1,7 @@
 baseURL: http://tlightsky.com/
 languageCode: zh-cn
 title: TLightSky
-theme: ananke # github-style
+theme: github-style # github-style
 disqusShortname: tlightsky
 show_reading_time: true
 port: 80
