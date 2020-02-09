@@ -9,3 +9,11 @@ draft: true
 * 迁移之前Jekyll的博客到Hugo平台（已完成）
 * 把之前ClickHouse的一些东西整理下写出来
 * 写一些车相关的知识
+
+## 一些书单
+
+* [ ] Rework
+* [ ] Rework2
+* [ ] Getting Real
+* [ ] Linus Torvalds自传
+* [ ] 软件随想录
