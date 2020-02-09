@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "sql cte with"
+title:  "为SQL添加CTE（WITH）支持"
 date:   2019-05-20 09:51:02
 categories: sql with cute
 ---
@@ -31,3 +31,10 @@ categories: sql with cute
 得到这样的一个粗略的抽象语法树之后，
 
 对所有的table部分进行替换
+
+## 2020更新
+
+最近基于 @亚洲 的一套标准查询模板基本解决了多层嵌套的问题，
+
+
+

@@ -1,7 +1,7 @@
 ---
 title: "关于心流体验"
 date: 2020-02-07T12:23:33+08:00
-draft: true
+draft: false
 ---
 
 # from [wiki](https://en.wikipedia.org/wiki/Flow_%28psychology%29)
