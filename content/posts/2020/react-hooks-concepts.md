@@ -55,6 +55,8 @@ function TextInputWithFocusButton() {
 
 通常也被用来这样引用`Dom`树
 
+另外同`createRef`不同的点是，不会每次render都创建新的
+
 ### useContext
 
 当前的 context 值由上层组件中距离当前组件最近的 <MyContext.Provider> 的 value prop 决定，
