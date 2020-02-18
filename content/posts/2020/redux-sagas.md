@@ -4,7 +4,15 @@ date: 2020-02-17T18:04:09+08:00
 draft: false
 ---
 
-### sagas是专门用来处理副作用的，这样redux及react的其他部分就可以保持pure的状态
+### sagas背景
+> * Sagas are Long Lived Transactions
+> * Sagas are a lot of small transactions
+> * Sagas are a Failure Management Pattern
+
+[相关论文](http://www.cs.cornell.edu/andru/cs711/2002fa/reading/sagas.pdf)
+
+
+### redux-sagas是专门用来处理副作用的，这样redux及react的其他部分就可以保持pure的状态
 栗子：
 ```javascript
 import { delay } from 'redux-saga'
