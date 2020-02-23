@@ -4,6 +4,9 @@ date: 2020-02-21T10:08:27+08:00
 draft: true
 ---
 
+### Traits
+
+* 
 
 ### Modules
 * `mod`类似`clojure`的`require ns`
@@ -26,6 +29,21 @@ draft: true
     * 
 * `!`代表宏调用
 * `foo()?`代表`try!`宏
+
+```rust
+// custom derive
+fn impl_hello_macro(ast: &syn::DeriveInput) -> TokenStream {
+    let name = &ast.ident;
+    let gen = quote! {
+        impl HelloMacro for #name {
+            fn hello_macro() {
+                println!("Hello, Macro! My name is {}", stringify!(#name));
+            }
+        }
+    };
+    gen.into()
+}
+```
     
 ### 编程之道的知识树
 

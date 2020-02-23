@@ -4,7 +4,12 @@ date: 2020-02-23T10:15:01+08:00
 draft: true
 ---
 
-主要考察`trait`，因为它类似于`interface`的概念
+主要考察`trait`，
+
+因为它类似于`interface`的概念
+
+通过`traits`可以抽象的看模块希望向外提供什么样的功能
+
 ### Substrate是什么
 
 [Substrate](https://substrate.dev/)是一个基本开箱即用的区块链框架
