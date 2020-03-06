@@ -6,7 +6,8 @@ draft: true
 
 ### Traits
 
-* 
+* rust的唯一抽象手段
+* 可以声明继承更新
 
 ### Modules
 * `mod`类似`clojure`的`require ns`
@@ -16,7 +17,12 @@ draft: true
 * Rust2018中可以省略`extern crate xxxx`
 * `regex` 正则包
 * `lazy_static` 惰性静态，可定义静态`HashMap`等不方便直接定义的变量
-
+* 关于`targets`
+    * `[lib]`
+    * `[[bin]]`
+    * `[[example]]`
+    * `#[bench]`
+    * `#[test]`
 
 ### Macros
 
@@ -52,3 +58,11 @@ fn impl_hello_macro(ast: &syn::DeriveInput) -> TokenStream {
 ### 编程之道的知识树
 
 ![toc](/rust/toc.png)
+
+### Move
+
+* 可以`Copy`的不会发生`move`，
+* 如果有`Box<T>`是没法实现`Copy`的
+* 基础值都是可以`Copy`的
+
+

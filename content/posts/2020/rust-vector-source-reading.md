@@ -18,3 +18,20 @@ draft: false
 * 
 
 ### 概念树
+
+拓扑逻辑
+```
+    let mut running_topology = RunningTopology {
+        inputs: HashMap::new(),
+        outputs: HashMap::new(),
+        config: Config::empty(),
+        shutdown_triggers: HashMap::new(),
+        source_tasks: HashMap::new(),
+        tasks: HashMap::new(),
+        abort_tx,
+    };
+```
+可以看到vector里的拓扑逻辑较为简单，
+核心是in/out
+
+
