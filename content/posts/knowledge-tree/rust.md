@@ -17,13 +17,17 @@ draft: true
 * Rust2018中可以省略`extern crate xxxx`
 * `regex` 正则包
 * `lazy_static` 惰性静态，可定义静态`HashMap`等不方便直接定义的变量
+
+### Cargo
+
 * 关于`targets`
     * `[lib]`
     * `[[bin]]`
     * `[[example]]`
     * `#[bench]`
     * `#[test]`
-
+* 关于`workspace`
+    * 
 ### Macros
 
 
